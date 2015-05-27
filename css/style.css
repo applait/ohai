@@ -1,0 +1,68 @@
+body {
+  font-family: "Exo";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 30rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Alegreya";
+  font-weight: normal;
+}
+
+#intro {
+  background: linear-gradient(#ffffff, #fafafa);
+}
+
+#intro-title {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+}
+
+#caption {
+  font-size: 1rem;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  #intro-title {
+    font-size: 4rem;
+  }
+
+  #caption {
+    font-size: 1.1rem;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  #intro-title {
+    font-size: 5rem;
+  }
+
+  #caption {
+    font-size: 1.25rem;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  #intro-title {
+    font-size: 5.5rem;
+  }
+
+  #caption {
+    font-size: 1.5rem;
+  }
+}
