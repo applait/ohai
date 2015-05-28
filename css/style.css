@@ -39,6 +39,12 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
+a,
+a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
 section h1 {
   margin-top: -3rem;
   margin-bottom: 1.5rem;
@@ -143,6 +149,24 @@ section p:last-child {
   padding: 1rem;
   border: 0.2rem solid #0065A7;
   border-radius: 0.25rem;
+}
+
+.member {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.member h2 {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.member p {
+  text-align: left;
 }
 
 .bg-black .arrow-down,
