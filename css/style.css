@@ -55,7 +55,7 @@ section p:last-child {
 }
 
 #intro-title {
-  margin: 0;
+  margin: -3rem 0 0 0;
   padding: 0;
   font-size: 3rem;
 }
