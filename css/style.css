@@ -93,6 +93,10 @@ section p:last-child {
   transform: scale(0.95);
 }
 
+#intro .arrow-down {
+  bottom: 3rem;
+}
+
 .button {
   display: block;
   margin-top: 1rem;
