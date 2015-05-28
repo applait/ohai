@@ -37,6 +37,37 @@ h1, h2, h3, h4 {
   font-size: 1rem;
 }
 
+.arrow-down {
+  font-size: 3rem;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  margin-left: -1.5rem;
+  cursor: pointer;
+  transition: all 1s ease-out;
+  animation: bobble 1s 3 linear;
+}
+
+.arrow-down:hover, .arrow-down:focus {
+  color: #000;
+  transform: scale(0.95);
+}
+
+@keyframes bobble {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 0.5rem, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 @media all and (min-width: 480px) and (max-width: 768px) {
   #intro-title {
     font-size: 4rem;
