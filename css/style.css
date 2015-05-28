@@ -13,6 +13,7 @@ body {
   border: none;
   background-color: #fff;
   color: #333;
+  text-rendering: optimizelegibility;
 }
 
 article {
