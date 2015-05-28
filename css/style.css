@@ -45,6 +45,11 @@ section h1 {
   font-size: 3rem;
 }
 
+section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
 section p {
   margin: 0 1rem 1rem 1rem;
   text-align: center;
@@ -79,6 +84,12 @@ section p:last-child {
   background: -moz-linear-gradient(#333, #000);
   background: -webkit-linear-gradient(#333, #000);
   background: linear-gradient(#333, #000);
+  color: #fff;
+}
+
+.bg-blue {
+  background: #255575;
+  background: linear-gradient(#255575, #0065A7);
   color: #fff;
 }
 
@@ -119,6 +130,10 @@ section p:last-child {
   bottom: 4rem;
 }
 
+#upcoming .button {
+  margin-top: -3rem;
+}
+
 .button {
   display: block;
   margin-top: 1rem;
@@ -130,16 +145,20 @@ section p:last-child {
   border-radius: 0.25rem;
 }
 
-.bg-black .arrow-down {
-  color: #aaa;
+.bg-black .arrow-down,
+.bg-blue .arrow-down {
+  color: #eee;
 }
 
 .bg-black .arrow-down:hover,
-.bg-black .arrow-down:focus {
+.bg-blue .arrow-down:hover,
+.bg-black .arrow-down:focus,
+.bg-blue .arrow-down:focus {
   color: #fff;
 }
 
-.bg-black .button {
+.bg-black .button,
+.bg-blue .button {
   color: #fafdff;
   border-color: #fff;
 }
