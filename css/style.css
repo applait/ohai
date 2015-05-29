@@ -144,6 +144,17 @@ section p:last-child {
   font-size: 2rem;
 }
 
+#love {
+  position: absolute;
+  display: block;
+  bottom: 1rem;
+  left: 50%;
+  margin-left: -0.6rem;
+  font-size: 1.2rem;
+  color: #e6e6e6;
+  cursor: default;
+}
+
 .button {
   display: block;
   margin-top: 1rem;
