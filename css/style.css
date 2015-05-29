@@ -69,11 +69,13 @@ section p:last-child {
   margin: -3rem 0 0 0;
   padding: 0;
   font-size: 3rem;
+  cursor: default;
 }
 
 #caption {
   font-size: 1rem;
   margin: 0;
+  cursor: default;
 }
 
 .bg-white {
