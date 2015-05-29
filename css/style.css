@@ -102,6 +102,7 @@ section p:last-child {
   font-size: 1rem;
   margin: 0;
   cursor: default;
+  text-transform: lowercase;
 }
 
 .bg-white {
