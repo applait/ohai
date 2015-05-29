@@ -260,6 +260,9 @@ section p:last-child {
 }
 
 @media all and (min-width: 1201px) {
+  section {
+    min-height: 35rem;
+  }
   #intro-title {
     font-size: 5.5rem;
   }
@@ -274,5 +277,9 @@ section p:last-child {
 
   .button {
     margin-top: 3rem;
+  }
+
+  #upcoming .button {
+    margin-top: 0;
   }
 }
