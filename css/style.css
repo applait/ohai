@@ -140,6 +140,10 @@ section p:last-child {
   margin-top: -3rem;
 }
 
+#social-links {
+  font-size: 2rem;
+}
+
 .button {
   display: block;
   margin-top: 1rem;
