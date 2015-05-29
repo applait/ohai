@@ -35,7 +35,7 @@
             "out_mode": "bounce",
             "random": true,
             "bounce": false,
-            "straight": true,
+            "straight": false,
             "attract": {
                 "enable": true,
                 "rotateX": 3000,
