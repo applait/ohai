@@ -27,7 +27,6 @@ var hooker = {
     reset: function (activate) {
         if (activate) {
             hooker.activated = true;
-            console.log("Hooker is listening...");
         } else {
             hooker.activated = false;
         }
@@ -42,14 +41,11 @@ document.addEventListener("keyup", function (evt) {
         if (hooker.activated) {
             var match = hooker.stack.join("");
             if (match && hooker.hooks[match]) {
-                console.log("Got a hooker for %s!", match);
                 try {
                     hooker.hooks[match](document.body);
                 } catch (e) {
                     console.error(e);
                 }
-            } else {
-                console.log("No hooker available for %s!", match);
             }
             hooker.reset();
         } else {
