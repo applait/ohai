@@ -23,8 +23,10 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+  background-color: #fafafa;
   font-family: "Exo";
   text-rendering: optimizelegibility;
+  transition: all 1s ease-out;
 }
 
 a {
@@ -221,4 +223,20 @@ svg.large { width: 4rem; height: 4rem; }
     left: calc(50% - 0.5rem);
     font-size: 1rem;
   }
+}
+
+/* 4. Overrides */
+
+body.inverted {
+  background-color: #333;
+  color: #fafafa;
+}
+
+body.inverted .button {
+  color: #f1f1f1;
+}
+
+body.inverted svg {
+  fill: #f1f1f1;
+  color: #f1f1f1;
 }

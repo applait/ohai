@@ -28,4 +28,10 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Add the "invert" egg
+    hooker.add("invert", function (body) {
+        console.log("Inverting colours...");
+        body.classList && body.classList.toggle("inverted");
+    });
+
 });
