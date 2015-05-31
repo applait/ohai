@@ -202,8 +202,16 @@ svg.down {
 
 
 /* 2. Pseudoclass */
-section p:last-child {
-  margin-bottom: 0;
+.button:hover {
+  color: #fff;
+  background: #444;
+  transition: all 300ms ease-in-out;
+}
+
+.button:hover svg {
+  fill: #fff;
+  color: #fff;
+  transition: all 300ms ease-in-out;
 }
 
 .bg-black .down:hover,
