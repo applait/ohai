@@ -28,4 +28,12 @@ window.addEventListener("DOMContentLoaded", function () {
         body.classList && body.classList.toggle("inverted");
     });
 
+    // Sorry for the long post... here's a potato!
+    console.log([
+        "HI DEVS, WELCOME TO",
+        "┌─┐┌─┐┌─┐┬  ┌─┐┬┌┬┐",
+        "├─┤├─┘├─┘│  ├─┤│ │ ",
+        "┴ ┴┴  ┴  ┴─┘┴ ┴┴ ┴ "
+    ].join("\n"));
+
 });
