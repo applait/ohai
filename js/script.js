@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
             scr.setAttribute("type", "text/javascript");
             scr.setAttribute("id", "particlesScript");
-            scr.setAttribute("src", "/vendor/particles.js/particles.min.js");
+            scr.setAttribute("src", "vendor/particles.js/particles.min.js");
 
             scr.onload = scr.onreadystatechange = function () {
                 if (!res && (!this.readyState || this.readyState === "complete")) {
