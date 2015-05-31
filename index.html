@@ -69,7 +69,7 @@ WELCOMES YOU, DEVS!
         <section>
             <h1 id="brand">applait</h1>
             <p id="caption">technologies to unify the world</p>
-            <a href="#unicorn"><svg class="down large"><use xlink:href="#icon-down"></use></svg></a>
+            <a href="#" id="curtainRaiser"><svg class="down large"><use xlink:href="#icon-down"></use></svg></a>
         </section>
     </article>
 
@@ -89,7 +89,7 @@ WELCOMES YOU, DEVS!
                 We're opening it up as a <strong>hosted platform for developers</strong> to build their solutions on.
             </p>
             <p>
-                <a href="docs/unicorn-story.pdf" class="button download-button">Download case-study</a>
+                <a href="docs/unicorn-story.pdf" class="button download-button">Download brief</a>
             </p>
         </section>
     </article>
@@ -224,6 +224,14 @@ WELCOMES YOU, DEVS!
       </symbol>
     </defs>
     </svg>
+
+    <script>
+    var openSesame = document.getElementById("curtainRaiser");
+    openSesame.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo(0, document.documentElement.clientHeight);
+    }, false);
+    </script>
 
 </body>
 
