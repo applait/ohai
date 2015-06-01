@@ -36,4 +36,11 @@ window.addEventListener("DOMContentLoaded", function () {
         "┴ ┴┴  ┴  ┴─┘┴ ┴┴ ┴ "
     ].join("\n"));
 
+    // Add the "monospace" egg
+    hooker.add("monospace", function (body) {
+        var style = document.createElement("style");
+        style.innerHTML = "* { font-family: 'monospace' !important; }";
+        document.body.appendChild(style);
+    });
+
 });
