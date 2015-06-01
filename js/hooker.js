@@ -38,7 +38,7 @@ document.addEventListener("keyup", function (evt) {
 
     // Activate on Enter, or trigger hook on second enter
     if (evt.keyCode === 13) {
-        if (hooker.activated) {
+        if (hooker.activated && hooker.stack.length > 0) {
             var match = hooker.stack.join("");
             if (match && hooker.hooks[match]) {
                 try {
