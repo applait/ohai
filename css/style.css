@@ -43,7 +43,7 @@ section {
   text-align: center;
   position: relative;
   max-width: 960px;
-  padding: 4rem 0;
+  padding: 4rem 0rem;
   margin: 0 auto;
 }
 
@@ -121,6 +121,10 @@ svg {
   color: #eee;
 }
 
+#xplex .button {
+  color: #aaa;
+}
+
 #upcoming p {
   margin: 0 auto;
 }
@@ -168,6 +172,10 @@ svg.large { width: 4rem; height: 4rem; }
 }
 
 /* 2. Pseudoclass */
+#xplex .button:hover {
+  color: #fff;
+}
+
 .button:hover {
   color: #fff;
   background: #444;
